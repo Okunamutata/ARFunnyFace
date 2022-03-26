@@ -15,6 +15,7 @@
 		3A3BBC4E27EE941B005BDE43 /* ARFunnyFaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BBC4D27EE941B005BDE43 /* ARFunnyFaceTests.swift */; };
 		3A3BBC5827EE941B005BDE43 /* ARFunnyFaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BBC5727EE941B005BDE43 /* ARFunnyFaceUITests.swift */; };
 		3A3BBC5A27EE941B005BDE43 /* ARFunnyFaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3BBC5927EE941B005BDE43 /* ARFunnyFaceUITestsLaunchTests.swift */; };
+		3A3BBC6727EE987D005BDE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3BBC6627EE987D005BDE43 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		3A3BBC5327EE941B005BDE43 /* ARFunnyFaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFunnyFaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3BBC5727EE941B005BDE43 /* ARFunnyFaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFunnyFaceUITests.swift; sourceTree = "<group>"; };
 		3A3BBC5927EE941B005BDE43 /* ARFunnyFaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFunnyFaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A3BBC6627EE987D005BDE43 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				3A3BBC3E27EE9416005BDE43 /* Experience.rcproject */,
 				3A3BBC4027EE941A005BDE43 /* Assets.xcassets */,
 				3A3BBC4227EE941A005BDE43 /* Preview Content */,
+				3A3BBC6627EE987D005BDE43 /* LaunchScreen.storyboard */,
 			);
 			path = ARFunnyFace;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3BBC6727EE987D005BDE43 /* LaunchScreen.storyboard in Resources */,
 				3A3BBC4427EE941A005BDE43 /* Preview Assets.xcassets in Resources */,
 				3A3BBC4127EE941A005BDE43 /* Assets.xcassets in Resources */,
 			);
@@ -424,7 +428,8 @@
 				DEVELOPMENT_TEAM = F89DAX39VP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage is needed to access the AR Scene";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Access required to save selfies ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -455,7 +460,8 @@
 				DEVELOPMENT_TEAM = F89DAX39VP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage is needed to access the AR Scene";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Access required to save selfies ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
